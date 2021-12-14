@@ -60,3 +60,19 @@ body {
     left: 220px;
     bottom: 100px;
 }
+
+.pipe {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/pipe.png');
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+.northPipe {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/pipe.png');
+    transform: rotate(180deg);
+    width: 60px;
+    height: 290px;
+    position: absolute;
+}
+

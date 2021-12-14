@@ -35,3 +35,19 @@ body {
     z-index: +2;
     top: -50px;
 }
+
+.sky {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/background.png');
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/ground.png');
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}

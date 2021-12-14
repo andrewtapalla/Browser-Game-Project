@@ -51,3 +51,12 @@ body {
     top: 580px;
     z-index: +1;
 }
+
+.bird {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/bird.png');
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    left: 220px;
+    bottom: 100px;
+}

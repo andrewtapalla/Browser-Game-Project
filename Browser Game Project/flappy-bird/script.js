@@ -9,3 +9,19 @@ document.addEventListener('DOMContentLoaded' , () => {
     let isGameOver = false
     let gap = 430
     let score = 0
+
+// START GAME
+function startGame() {
+    birdBottom -= gravity
+    bird.style.bottom = birdBottom + 'px'
+    bird.style.left = birdLeft + 'px'
+}
+let gameTimerId = setInterval(startGame, 20)
+
+// JUMP
+function jump() {
+    flyUp.play()
+    if (birdBottom < 500) birdBottom += 50
+    bird.style.bottom = birdBottom + 'px'
+}
+document.addEventListener('click', jump)

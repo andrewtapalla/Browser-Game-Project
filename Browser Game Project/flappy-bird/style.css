@@ -3,3 +3,35 @@ body {
     display: flex;
 }
 
+.container {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    left: 80px;
+}
+
+.leftborder {
+    width: 80px;
+    height: 800px;
+    position:  absolute;
+    background-color: black;
+    z-index: +2;
+}
+
+.rightborder {
+    width: 80px;
+    height: 800px;
+    position: absolute;
+    background-color: black;
+    z-index: +2;
+    left: 580px;
+}
+
+.top {
+    width: 660px;
+    height: 50px;
+    position:  absolute;
+    background-color: black;
+    z-index: +2;
+    top: -50px;
+}

@@ -25,3 +25,24 @@ function jump() {
     bird.style.bottom = birdBottom + 'px'
 }
 document.addEventListener('click', jump)
+
+// PIPES
+function generatePipes() {
+    let moveLeft = 500
+    let randomHeight = Math.random() * 60
+    let southPipe = randomHeight
+    const pipe = document.createElement('div')
+    const northPipe = document.createElement('div')
+    if (!isGameOver) {
+        point.play()
+        //EXECUTE POINT HERE?
+        pipe.classList.add('pipe')
+        northPipe.classList.add('northPipe')
+    }
+    gameDisplay.appendChild(pipe)
+    gameDisplay.appendChild(northPipe)
+    pipe.style.left = moveLeft + 'px'
+    northPipe.style.left = moveLeft + 'px'
+    pipe.style.bottom = southPipe + 'px'
+    northPipe.style.bottom = southPipe + gap + 'px'
+

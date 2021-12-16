@@ -46,3 +46,14 @@ function generatePipes() {
     pipe.style.bottom = southPipe + 'px'
     northPipe.style.bottom = southPipe + gap + 'px'
 
+// PIPES MOVING
+function movePipes() {
+    moveLeft -=4
+    pipe.style.left = moveLeft + 'px'
+    northPipe.style.left = moveLeft + 'px'
+
+    if (moveLeft === -80) {
+        clearInterval(timerId)
+        gameDisplay.removeChild(pipe)
+        gameDisplay.removeChild(northPipe)
+    }

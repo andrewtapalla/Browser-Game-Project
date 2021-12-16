@@ -63,3 +63,21 @@ function movePipes() {
         gameDisplay.removeChild(pipe)
         gameDisplay.removeChild(northPipe)
     }
+ 
+// COLLISION
+        if (
+            moveLeft > 200 && moveLeft < 280 && moveLeft === 220 &&
+            (birdBottom < southPipe + 153 || birdBottom > southPipe + gap -200)||
+            birdBottom === 0 
+            ) {
+            gameOver()
+            clearInterval(timerId)
+        }
+    }
+    // point.play()
+    let timerId = setInterval(movePipes, 20) 
+    if (!isGameOver) setTimeout(generatePipes, 2000)
+
+}
+
+generatePipes()

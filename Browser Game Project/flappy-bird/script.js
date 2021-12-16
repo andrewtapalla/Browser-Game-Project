@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded' , () => {
     let isGameOver = false
     let gap = 430
     let score = 0
+    let flyUp = new Audio;
+    let point = new Audio
+
+flyUp.src = "/Users/andrewtapalla/Desktop/Browser Game Project/wing.mp3";
+point.src = "/Users/andrewtapalla/Desktop/Browser Game Project/point.mp3";
+
 
 // START GAME
 function startGame() {

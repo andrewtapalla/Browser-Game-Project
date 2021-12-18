@@ -69,7 +69,7 @@ body {
 }
 
 .northPipe {
-    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/pipe.png');
+    background-image: url('Browser Game Project/flappy-bird/Images/pipe.png);
     transform: rotate(180deg);
     width: 60px;
     height: 290px;
@@ -87,6 +87,6 @@ body {
   position: absolute;
   top: 580px;
   height: 150px;
-  background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/ground.png');
+  background-image: url('Browser Game Project/flappy-bird/Images/ground.png');
   width: 100%;
 }

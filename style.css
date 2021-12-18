@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+.container {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    left: 80px;
+}
+
+.leftborder {
+    width: 80px;
+    height: 800px;
+    position:  absolute;
+    background-color: black;
+    z-index: +2;
+}
+
+.rightborder {
+    width: 80px;
+    height: 800px;
+    position: absolute;
+    background-color: black;
+    z-index: +2;
+    left: 580px;
+}
+
+.top {
+    width: 660px;
+    height: 50px;
+    position:  absolute;
+    background-color: black;
+    z-index: +2;
+    top: -50px;
+}
+
+.sky {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/background.png');
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/ground.png');
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}
+
+.bird {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/bird.png');
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    left: 220px;
+    bottom: 100px;
+}
+
+.pipe {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/pipe.png');
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+.northPipe {
+    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/pipe.png');
+    transform: rotate(180deg);
+    width: 60px;
+    height: 290px;
+    position: absolute;
+}
+
+.ground-container {
+    height: 150px;
+    width: 580px;
+    left: 80px;
+    position:  absolute;
+}
+
+.flappy-ground {
+  position: absolute;
+  top: 580px;
+  height: 150px;
+  background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/ground.png');
+  width: 100%;
+}

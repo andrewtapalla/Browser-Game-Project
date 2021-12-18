@@ -17,3 +17,4 @@ Unfinished functionalities and/or imperfections:
 
 1) Bird and pipe collision needs to be more sensitive.
 2) Pipes continue past the canvas borders.
+3) Game over alert appears twice.

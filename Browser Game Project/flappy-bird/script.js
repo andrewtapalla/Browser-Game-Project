@@ -83,3 +83,16 @@ function movePipes() {
 }
 
 generatePipes()
+    
+// END OF GAME
+function gameOver() {
+    clearInterval(gameTimerId);
+    alert("Game over! Your score is: " + score);
+    isGameOver = true
+    document.removeEventListener('click', jump);
+    ground.classList.add('ground');
+    ground.classList.remove('flappy-ground');
+}
+
+})
+

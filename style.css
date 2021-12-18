@@ -44,7 +44,7 @@ body {
 }
 
 .ground {
-    background-image: url('Browser Game Project/flappy-bird/Images/ground.png');
+    background-image: url('ground.png');
     width: 500px;
     height: 150px;
     position: absolute;
@@ -87,6 +87,6 @@ body {
   position: absolute;
   top: 580px;
   height: 150px;
-  background-image: url('Browser Game Project/flappy-bird/Images/ground.png');
+  background-image: url('ground.png');
   width: 100%;
 }

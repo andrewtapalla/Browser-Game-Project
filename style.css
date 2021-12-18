@@ -37,7 +37,7 @@ body {
 }
 
 .sky {
-    background-image: url('/Users/andrewtapalla/Desktop/Browser Game Project/flappy-bird/Images/background.png');
+    background-image: url('Browser Game Project/flappy-bird/Images/background.png');
     width: 500px;
     height: 580px;
     position: absolute;

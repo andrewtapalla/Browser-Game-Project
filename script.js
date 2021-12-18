@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded' , () => {
     let flyUp = new Audio;
     let point = new Audio;
     
-    flyUp.src = "/Users/andrewtapalla/Desktop/Browser Game Project/wing.mp3";
-    point.src = "/Users/andrewtapalla/Desktop/Browser Game Project/point.mp3";
+    flyUp.src = "Browser Game Project/wing.mp3";
+    point.src = "Browser Game Project/point.mp3";
     
 
 // START GAME

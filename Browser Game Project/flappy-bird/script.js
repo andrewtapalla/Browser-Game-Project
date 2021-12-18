@@ -41,7 +41,9 @@ function generatePipes() {
     const northPipe = document.createElement('div')
     if (!isGameOver) {
         point.play()
-        //EXECUTE POINT HERE?
+        if (!isGameOver === true) {
+            score++;
+        }
         pipe.classList.add('pipe')
         northPipe.classList.add('northPipe')
     }

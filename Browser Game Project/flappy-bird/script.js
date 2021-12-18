@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded' , () => {
     let gravity = 2
     let isGameOver = false
     let gap = 430
-    let score = 0
+    let score = -1
     let flyUp = new Audio;
     let point = new Audio
 
